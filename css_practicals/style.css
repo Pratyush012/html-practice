@@ -1,0 +1,37 @@
+/* universal selector */
+*{
+				margin : 0;
+				padding : 0;
+}
+/* element selector */
+body {
+				background-color : red;
+}
+p{
+				background-color: blue;
+}
+/* ID selector */
+#p3{
+				background-color: magenta;
+}
+/* class selector */
+.red-fg{
+				color : red;
+}
+.cyan-fg{
+				color : #4DA6FF;
+}
+.grey-bg{
+				background-color : grey;
+}
+.mustard-bg{
+				background-color : #FFA64D;
+}
+/* grouped selector */
+.green-fg, #p2{
+				color : blue;
+}
+/* h2(s) who belong to mustard-bg class*/
+h2.mustard-bg{
+				background-color : red;
+}
